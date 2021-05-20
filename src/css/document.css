@@ -1,0 +1,22 @@
+@charset "UTF-8";
+@font-face {
+    font-family: Roboto;
+    src: url('../../Roboto-Regular.ttf');
+}
+
+* {
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+    user-select: none;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-image: linear-gradient( 109.6deg,  rgba(5,84,94,1) 16%, #bbb 91.1% );
+    background-attachment: fixed;
+}

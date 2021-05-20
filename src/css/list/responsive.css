@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+@media (max-width: 414px) {
+    #list li {
+        margin-left: 30px;
+        margin-right: 20px;
+        font-size: 18pt;
+    }
+}
+
+@media (max-width: 360px) {
+    #list li {
+        margin-left: 30px;
+        margin-right: 20px;
+        font-size: 15pt;
+    }
+}
+
+@media (max-width: 280px) {
+    #list li {
+        margin-left: 30px;
+        margin-right: 20px;
+        font-size: 12pt;
+    }
+}

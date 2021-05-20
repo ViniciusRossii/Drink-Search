@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+@media (max-width: 414px) {
+    img {
+        height: 300px;
+        width: 300px;
+    }
+    #instructions {
+        width: 330px;
+    }
+}
+
+@media (max-width: 320px) {
+    img {
+        height:270px;
+        width: 270px;
+    }
+    #instructions {
+        width: 300px;
+    }
+}
+
+@media (max-width: 280px) {
+    img {
+        height:220px;
+        width: 220px;
+    }
+    #instructions {
+        width: 260px;
+    }
+}

@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+footer {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 220px;
+}
+
+#title {
+    text-align: center;
+    margin-top: 60px;
+    font-size: 50px;
+}

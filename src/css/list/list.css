@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+#div-list {
+    text-align: center;
+    margin-top: 100px;
+}
+
+#list {
+    display: inline-block;
+    text-align: left;
+}
+
+#list li {
+    text-decoration: underline;
+    font-size: 25px;
+    white-space: nowrap;
+    text-transform: capitalize;
+}
+
+#list li:hover {
+    color: lightblue;
+    cursor: pointer;
+}

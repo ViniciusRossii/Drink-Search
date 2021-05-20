@@ -1,0 +1,7 @@
+@charset "UTF-8";
+
+@media (max-width: 320px) {
+    footer {
+        margin-top: 150px;
+    }
+}

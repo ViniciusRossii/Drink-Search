@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+#content {
+    text-align: center;
+    margin-top: 40px;
+}
+
+#drink-image {
+    margin-top: 30px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 30%;
+    text-align: center;
+    display: inline-table;
+    margin-top: 20px;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+    text-transform: capitalize;
+}
+
+#brazilian td {
+    text-transform: none;
+}
