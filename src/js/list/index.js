@@ -28,3 +28,9 @@ for (var c = 0; c < document.getElementsByTagName('li').length; c++) {
         window.location.href = "instructions.html"
     })
 }
+
+// Eventos
+
+document.getElementById('return').addEventListener('click', () => {
+    window.location.href = "https://viniciusrossii.github.io/Drink-Search/"
+})

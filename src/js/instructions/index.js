@@ -32,4 +32,10 @@ function generateData() {
     }
 }
 
+// Eventos
+
+document.getElementById('return').addEventListener('click', () => {
+    window.location.href = "https://viniciusrossii.github.io/Drink-Search/list.html"
+})
+
 generateData()

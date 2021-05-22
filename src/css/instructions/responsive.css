@@ -1,17 +1,24 @@
 @charset "UTF-8";
 
 @media (max-width: 414px) {
-    img {
+    #drink-image {
         height: 300px;
         width: 300px;
     }
     #instructions {
         width: 330px;
     }
+    #return {
+        height: 48px;
+        width: 48px;
+    }
+    #title {
+        margin-top: 80px;
+    }
 }
 
 @media (max-width: 320px) {
-    img {
+    #drink-image {
         height:270px;
         width: 270px;
     }
@@ -21,7 +28,7 @@
 }
 
 @media (max-width: 280px) {
-    img {
+    #drink-image {
         height:220px;
         width: 220px;
     }
