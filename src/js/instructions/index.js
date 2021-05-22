@@ -38,4 +38,8 @@ document.getElementById('return').addEventListener('click', () => {
     window.location.href = "https://viniciusrossii.github.io/Drink-Search/list.html"
 })
 
+document.getElementById('dictionary-checkbox').addEventListener('change', () => {
+    document.getElementById('brazilian-dictionary').classList.toggle('show')
+})
+
 generateData()

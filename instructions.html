@@ -10,70 +10,75 @@
 </head>
 <body>
     <img id="return" src="icons/return.png" alt="return" height="50px" width="50px">
+    
+    <label for="checkbox"><input type="checkbox" name="brazilian-dictionary" id="dictionary-checkbox">Brazilian Dictionary</label>
     <h1 id="title">Drink Search</h1>
     <div id="content">
         <img height="400px" width="400px" id="drink-image" alt="drink-image">
         <h1 id="drink-name"></h1>
         <h3 id="ingredients-title">Ingredients</h3>
-            <table id="table">
-                <thead>
-                    <tr>
-                        <th>Ingredient</th>
-                        <th>Measure</th>
-                    </tr>
-                </thead>
-                <tbody id="tbody"></tbody>
-            </table>
-        <h3 id="dictionary-title">Brazilian Dictionary</h3>
-        <table>
+        <table id="table">
             <thead>
                 <tr>
                     <th>Ingredient</th>
                     <th>Measure</th>
                 </tr>
             </thead>
-            <tbody id="brazilian">
-                <tr>
-                    <td>1 OZ</td>
-                    <td>30 ML/g</td>
-                </tr>
-                <tr>
-                    <td>1 CL</td>
-                    <td>10 ML/g</td>
-                </tr>
-                <tr>
-                    <td>1 DL</td>
-                    <td>100 ML/g</td>
-                </tr>
-                <tr>
-                    <td>1 LB</td>
-                    <td>450 ML/g</td>
-                </tr>
-                <tr>
-                    <td>1 TSP</td>
-                    <td>5 ML/g</td>
-                </tr>
-                <tr>
-                    <td>1 TBSP</td>
-                    <td>15 ML/g</td>
-                </tr>
-                <tr>
-                    <td>1 TBLSP</td>
-                    <td>15 ML/g</td>
-                </tr>
-                <tr>
-                    <td>1 Spoon</td>
-                    <td>15 ML/g</td>
-                </tr>
-                <tr>
-                    <td>1 Cup</td>
-                    <td>250 ML/g</td>
-                </tr>
-            </tbody>
+            <tbody id="tbody"></tbody>
         </table>
+        <div id="brazilian-dictionary">
+            <h3 id="dictionary-title">Brazilian Dictionary</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Ingredient</th>
+                        <th>Measure</th>
+                    </tr>
+                </thead>
+                <tbody id="brazilian">
+                    <tr>
+                        <td>1 OZ</td>
+                        <td>30 ML/g</td>
+                    </tr>
+                    <tr>
+                        <td>1 CL</td>
+                        <td>10 ML/g</td>
+                    </tr>
+                    <tr>
+                        <td>1 DL</td>
+                        <td>100 ML/g</td>
+                    </tr>
+                    <tr>
+                        <td>1 LB</td>
+                        <td>450 ML/g</td>
+                    </tr>
+                    <tr>
+                        <td>1 TSP</td>
+                        <td>5 ML/g</td>
+                    </tr>
+                    <tr>
+                        <td>1 TBSP</td>
+                        <td>15 ML/g</td>
+                    </tr>
+                    <tr>
+                        <td>1 TBLSP</td>
+                        <td>15 ML/g</td>
+                    </tr>
+                    <tr>
+                        <td>1 Spoon</td>
+                        <td>15 ML/g</td>
+                    </tr>
+                    <tr>
+                        <td>1 Cup</td>
+                        <td>250 ML/g</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
         <h3 id="instructions-title">Instructions</h3>
         <p id="instructions"></p>
     </div>
     <script src="src/js/instructions/index.js"></script>
 </body>
+
 </html>
